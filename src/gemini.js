@@ -2,6 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { getWebSearchContext } from "./tavily";
 
 const apiKey =  import.meta.env.VITE_GEN_AI_API_KEY;
+console.log("Using API Key:", apiKey ? "Provided" : "Not Provided");
 // "AIzaSyA01cjGt7BsSrBzN8eHJa3dyhhFIRhKKVY";
 //"AIzaSyCI6JEiqkxS8x1XkDc-Bo0D36IkpUaA2MA";
 //"AIzaSyAe3WQO8IaePC0djATcBUmMtPUcshNwqS8"
